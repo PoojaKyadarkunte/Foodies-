@@ -1,0 +1,22 @@
+.about-text {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-image {
+    background-image: url('https://i.pinimg.com/736x/26/57/8b/26578b71057a20da5ba93d03954dc107.jpg');
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+h1, p {
+    color: #140303;
+    text-shadow: 1px 1px 1px #e4dddd;
+}
